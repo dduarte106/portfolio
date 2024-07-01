@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+	font-family: 'Poppins', sans-serif;
+
+    position: relative;
+    min-height: 100vh; /* Garante que o corpo da página tenha pelo menos a altura da tela */
+}
+
+.arkh {
+    border-bottom: 2px solid gold;
+    background-color: black;
+}
+
+.arkh a {
+    color: gold;
+    font-weight: 600;
+}
+
+.intro {
+    background-color: black;
+    margin-top: 5px;
+    border-top: 2px solid gold;
+}
+
+.intro p {
+    color: whitesmoke;
+}
+
+main {
+    max-width: 100%;
+    max-height: auto;
+
+    background-color: black;
+    color: whitesmoke;
+}
+
+.map {
+    max-width: 60%;
+    margin: 0 auto; /* Isso centraliza a div horizontalmente */
+    border: 2px solid #ddbb00; /* Apenas para visualização */
+    background-color: #b19500;
+    padding: 20px; /* Apenas para visualização */
+  }
+
+  .map img {
+    display: block; /* Para remover espaços adicionais */
+    margin: 0 auto; /* Isso centraliza a imagem dentro da div */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho da div */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  .cdds {
+    display: flex;
+    gap: 5pc;
+  }
+
+  .personas {
+    display: flex;
+  }
+
+  .img-thumb {
+    padding: .25rem;
+    background-color: var(--bs-body-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    max-width: 25%;
+    height: auto;
+  }
+
+
+  /* Media queries para iPhone 13 */
+  @media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .cdds h3 {
+        font-size: 1.2rem;
+    }
+
+    .personas div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personas img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .arkh {
+        max-width: 100%; /* ou outro valor que desejar para telas menores que 576px */
+        width: 100%;
+    }
+}
