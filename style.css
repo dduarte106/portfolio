@@ -47,25 +47,30 @@ main {
     color: whitesmoke;
 }
 
-.map {
+h2.txt-ttl {
+    text-align: center;
+    font-weight: 700;
+}
+
+/* .map {
     max-width: 60%;
-    margin: 0 auto; /* Isso centraliza a div horizontalmente */
-    border: 2px solid #ddbb00; /* Apenas para visualização */
+    margin: 0 auto;
+    border: 2px solid #ddbb00;
     background-color: #b19500;
-    padding: 20px; /* Apenas para visualização */
+    padding: 20px
   }
 
   .map img {
-    display: block; /* Para remover espaços adicionais */
-    margin: 0 auto; /* Isso centraliza a imagem dentro da div */
-    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho da div */
-    height: auto; /* Mantém a proporção da imagem */
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto;
   }
 
   .cdds {
     display: flex;
     gap: 5pc;
-  }
+  } */
 
   .personas {
     display: flex;
